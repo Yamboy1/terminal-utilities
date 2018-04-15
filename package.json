@@ -31,16 +31,15 @@
   },
   "bundleDependencies": false,
   "dependencies": {
-    "readline-sync": "^1.4.7",
-    "shelljs": "^0.7.8"
+    "readline-sync": "^1.4.7"
   },
   "deprecated": false,
   "description": "An easy to use synchronous node.js library for using the Linux terminal.",
   "devDependencies": {
     "chai": "^4.1.0",
     "david": "^11.0.0",
-    "mocha": "^4.0.1",
-    "standard": "^10.0.2"
+    "mocha": "^5.1.0",
+    "standard": "^11.0.1"
   },
   "homepage": "https://github.com/yamboy1/terminal-utilities#readme",
   "keywords": [
