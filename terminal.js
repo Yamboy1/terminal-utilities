@@ -10,9 +10,9 @@ class Terminal {
       this.stderr = process.stderr
 
       // process.on('exit', code => {
-        // this.clear()
-        // this.setCursor(0, 0)
-        // process.exit()
+      //   this.clear()
+      //   this.setCursor(0, 0)
+      //   process.exit()
       // })
     } else {
       throw Error('terminal-utilities needs to be run in the terminal and not through a pipe or a redirection command\n')
@@ -53,8 +53,7 @@ class Terminal {
       this.stdout.write('')
     } else {
       if (Buffer.isBuffer(text)) {
-        this.stdout.write(text.slice(text.length / 2)
-)
+        this.stdout.write(text.slice(text.length / 2))
       }
       this.stdout.write(text.toString())
     }
