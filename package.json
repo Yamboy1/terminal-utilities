@@ -1,0 +1,69 @@
+{
+  "_from": "terminal-utilities",
+  "_id": "terminal-utilities@2.4.0",
+  "_inBundle": false,
+  "_integrity": "sha512-gsfHJqL7P4IZJ0WA3rGEJuPVAZ2tzv3Qyh4PDPFUqfm6sygeOxvPGMkY3o3k/PitxYOeAcZ0Wb8PfvfdVLnVdg==",
+  "_location": "/terminal-utilities",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "terminal-utilities",
+    "name": "terminal-utilities",
+    "escapedName": "terminal-utilities",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/terminal-utilities/-/terminal-utilities-2.4.0.tgz",
+  "_shasum": "5db8df61cde22604a4e9ea0796c9502e772e5206",
+  "_spec": "terminal-utilities",
+  "_where": "/home/pi/terminal-utilities",
+  "author": {
+    "name": "Yamboy1"
+  },
+  "bugs": {
+    "url": "https://github.com/yamboy1/terminal-utilities/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "readline-sync": "^1.4.7",
+    "shelljs": "^0.7.8"
+  },
+  "deprecated": false,
+  "description": "An easy to use synchronous node.js library for using the Linux terminal.",
+  "devDependencies": {
+    "chai": "^4.1.0",
+    "david": "^11.0.0",
+    "mocha": "^4.0.1",
+    "standard": "^10.0.2"
+  },
+  "homepage": "https://github.com/yamboy1/terminal-utilities#readme",
+  "keywords": [
+    "terminal",
+    "linux"
+  ],
+  "license": "MIT",
+  "main": "terminal.js",
+  "name": "terminal-utilities",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yamboy1/terminal-utilities.git"
+  },
+  "scripts": {
+    "david": "david",
+    "david-update": "david update",
+    "mocha": "mocha",
+    "test": "david && standard && mocha --reporter spec"
+  },
+  "standard": {
+    "ignore": [
+      "/docs/**"
+    ]
+  },
+  "version": "2.4.0"
+}
