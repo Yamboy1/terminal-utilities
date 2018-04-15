@@ -1,28 +1,4 @@
 {
-  "_from": "terminal-utilities",
-  "_id": "terminal-utilities@2.4.0",
-  "_inBundle": false,
-  "_integrity": "sha512-gsfHJqL7P4IZJ0WA3rGEJuPVAZ2tzv3Qyh4PDPFUqfm6sygeOxvPGMkY3o3k/PitxYOeAcZ0Wb8PfvfdVLnVdg==",
-  "_location": "/terminal-utilities",
-  "_phantomChildren": {},
-  "_requested": {
-    "type": "tag",
-    "registry": true,
-    "raw": "terminal-utilities",
-    "name": "terminal-utilities",
-    "escapedName": "terminal-utilities",
-    "rawSpec": "",
-    "saveSpec": null,
-    "fetchSpec": "latest"
-  },
-  "_requiredBy": [
-    "#USER",
-    "/"
-  ],
-  "_resolved": "https://registry.npmjs.org/terminal-utilities/-/terminal-utilities-2.4.0.tgz",
-  "_shasum": "5db8df61cde22604a4e9ea0796c9502e772e5206",
-  "_spec": "terminal-utilities",
-  "_where": "/home/pi/terminal-utilities",
   "author": {
     "name": "Yamboy1"
   },
@@ -64,5 +40,5 @@
       "/docs/**"
     ]
   },
-  "version": "2.4.0"
+  "version": "2.4.1"
 }
