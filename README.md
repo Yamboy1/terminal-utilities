@@ -16,7 +16,7 @@ npm install terminal-utilities
 ## Usage
 
 ```js
-var terminal = require('terminal-utilities')
+const terminal = require('terminal-utilities')
 ```
 
 ## Docs
